@@ -1,6 +1,7 @@
 # Min Number Of Coins For Change
 
 Author: Kawser
+
 Type: Dynamic Programming
 
 
