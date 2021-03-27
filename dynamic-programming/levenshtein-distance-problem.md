@@ -70,3 +70,18 @@ class Program {
 }
 ```
 
+### Time and Space Complexity
+Suppose, 
+n = first string length
+m = second string length 
+|complexity|value|
+|----------|-----|
+|time      |O(nm)|
+|space     |O(nm)| 
+
+We can optimize our space, 
+- select min(n,m) from lengths
+- use this min length to create editMatrix[2][minLength], because we only need maximum 2 rows to properly calulate min edit distance 
+
+![Optimize Space](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/images/optimize-space-edit-distance-problem.png)
+
