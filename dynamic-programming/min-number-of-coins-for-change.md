@@ -28,10 +28,43 @@ Sample Output:
 
 Best video explanation : [The Change Making Problem - Fewest Coins To Make Change Dynamic Programming](https://www.youtube.com/watch?v=jgiZlGzXMBw&list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI&index=12)
 
-|complexity|value|
-|----------|-----|
-|time      |O(nd)|
-|space     |O(n) | 
+### 1. Top down approach
+
+We can start from the amount, and build it recursively using this coins, we can cache the result to reduce redundant calculations.   
+
+![Top Down Approach](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/top-down-approach.png)
+
+### 2. Bottom up approach 
+
+#### 2.1 Approach 1
+```java
+import java.util.*;
+
+class Program {
+  public static int minNumberOfCoinsForChange(int n, int[] denoms) {
+    int[] numOfCoins = new int[n+1];
+		Arrays.fill(numOfCoins, Integer.MAX_VALUE);
+		numOfCoins[0] = 0;
+		
+		for(int amount = 1; amount <= n; amount++){
+			for(int denom: denoms){
+				if(denom <= amount){
+					int subAmount = amount - denom;
+					//init newWays set Max Value
+					int newWays = Integer.MAX_VALUE;
+					int subProbWays = numOfCoins[subAmount];
+					if(subProbWays !=  Integer.MAX_VALUE){
+						newWays = subProbWays + 1;
+					}
+					numOfCoins[amount] = Math.min(numOfCoins[amount], newWays);
+				}
+			}
+		}
+    return numOfCoins[n] != Integer.MAX_VALUE ? numOfCoins[n] : -1;
+  }
+}
+```
+#### 2.2 Approach 2
 ```java
 class Program {
   public static int minNumberOfCoinsForChange(int n, int[] denoms) {
@@ -57,3 +90,11 @@ class Program {
 }
 
 ```
+### Time and Space Complexity
+
+Both for top down and bottom up approach
+
+|complexity|value|
+|----------|-----|
+|time      |O(nd)|
+|space     |O(n) | 
