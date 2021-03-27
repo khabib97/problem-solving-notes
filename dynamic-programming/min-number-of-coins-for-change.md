@@ -26,6 +26,8 @@ Sample Output:
 
 ### Solution
 
+Best video explanation : [The Change Making Problem - Fewest Coins To Make Change Dynamic Programming](https://www.youtube.com/watch?v=jgiZlGzXMBw&list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI&index=12)
+
 |complexity|value|
 |----------|-----|
 |time      |O(nd)|
