@@ -32,9 +32,9 @@ Best video explanation : [The Change Making Problem - Fewest Coins To Make Chang
 
 We can start from the amount, and build it recursively using this coins, we can cache the result to reduce redundant calculations.   
 
-![Top Down Approach](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/top-down-approach.png)
+![Top Down Approach](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/images/top-down-approach.png)
 
-### 2. Bottom up approach 
+### 2. Bottom up approach
 
 #### 2.1 Approach 1
 ```java
