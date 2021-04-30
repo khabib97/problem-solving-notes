@@ -10,6 +10,7 @@ By Problem Category With Alphabetic Order
 - [Min Num of Conins for Change](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/min-number-of-coins-for-change.md)
 
 
-
+#### Graph
+- [Find Eventual Safe States](https://github.com/khabib97/problem-solving-notes/blob/main/graph/find-eventual-safe-states.md)
 
 
