@@ -22,7 +22,7 @@ Explanation:
 rotate 1 steps to the right: [99,-1,-100,3]
 rotate 2 steps to the right: [3,99,-1,-100]
 ```
-### Solution:
+### Solution 1:
 
 ```
 supporse, k = 2,
@@ -32,6 +32,7 @@ supporse, k = 2,
 - Reverse k to arr.length-1 : 1,2,3,4,5
 - Rotated arr = 6,7,1,2,3,4,5
 
+// Time O(n), Space 0(1)
 private void rotateArray(int[] nums, int k) {
 	
 	k = k % nums.length;
@@ -52,4 +53,22 @@ private void reverse(int[] nums, int start, int end) {
 		end--;
 	}	
 }
+```
+### Solution 2:
+```
+// Time O(n), Space O(n)
+    public void rotate(int[] nums, int k) {
+        k = k % nums.length;
+        int[] _nums = nums.clone();
+        int j = nums.length - k;
+        for(int i = 0; i < nums.length; i++){
+            if(j >= nums.length){
+                j = 0;
+            }
+            nums[i] = _nums[j++];
+        }
+        
+        nums = _nums;
+    }
+
 ```
