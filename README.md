@@ -9,6 +9,7 @@ By Problem Category With Alphabetic Order
 - [Remove Duplicates from Sorted Array](https://github.com/khabib97/problem-solving-notes/blob/main/array/RemoveDuplicates.md)
 - [Best Time to Buy and Sell Stock II](https://github.com/khabib97/problem-solving-notes/blob/main/array/BestTimeToBuyAndSell.md)
 - [Rotate Array](https://github.com/khabib97/problem-solving-notes/blob/main/array/RotateArray.md)
+- [Contains Duplicate](https://github.com/khabib97/problem-solving-notes/blob/main/array/ContainsDuplicate.md)
 
 #### Dynamic Programing:
 - [Edit Distance or Levenshtein Distance](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/levenshtein-distance-problem.md)
