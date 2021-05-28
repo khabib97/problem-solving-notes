@@ -11,6 +11,7 @@ By Problem Category With Alphabetic Order
 - [Rotate Array](https://github.com/khabib97/problem-solving-notes/blob/main/array/RotateArray.md)
 - [Contains Duplicate](https://github.com/khabib97/problem-solving-notes/blob/main/array/ContainsDuplicate.md)
 - [Single Number](https://github.com/khabib97/problem-solving-notes/blob/main/array/SingleNumber.md)
+- [Intersection of Two Arrays II](https://github.com/khabib97/problem-solving-notes/blob/main/array/IntersectionOfTwoArraysII.md)
 
 #### Dynamic Programing:
 - [Edit Distance or Levenshtein Distance](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/levenshtein-distance-problem.md)
