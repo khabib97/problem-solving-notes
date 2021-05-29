@@ -12,6 +12,7 @@ By Problem Category With Alphabetic Order
 - [Contains Duplicate](https://github.com/khabib97/problem-solving-notes/blob/main/array/ContainsDuplicate.md)
 - [Single Number](https://github.com/khabib97/problem-solving-notes/blob/main/array/SingleNumber.md)
 - [Intersection of Two Arrays II](https://github.com/khabib97/problem-solving-notes/blob/main/array/IntersectionOfTwoArraysII.md)
+- [One Plus](https://github.com/khabib97/problem-solving-notes/blob/main/array/PlusOne.md)
 
 #### Dynamic Programing:
 - [Edit Distance or Levenshtein Distance](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/levenshtein-distance-problem.md)
