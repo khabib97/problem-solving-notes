@@ -14,6 +14,7 @@ By Problem Category With Alphabetic Order
 - [Intersection of Two Arrays II](https://github.com/khabib97/problem-solving-notes/blob/main/array/IntersectionOfTwoArraysII.md)
 - [One Plus](https://github.com/khabib97/problem-solving-notes/blob/main/array/PlusOne.md)
 - [Move Zeros](https://github.com/khabib97/problem-solving-notes/blob/main/array/MoveZeros.md)
+- [Two Sum](https://github.com/khabib97/problem-solving-notes/blob/main/array/TwoSum.md)
 
 #### Dynamic Programing:
 - [Edit Distance or Levenshtein Distance](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/levenshtein-distance-problem.md)
