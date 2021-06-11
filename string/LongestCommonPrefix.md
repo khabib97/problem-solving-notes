@@ -28,3 +28,28 @@ Explanation: There is no common prefix among the input strings.
 strs[i] consists of only lower-case English letters.
 
 ### Solution
+
+Time O (nm) | Space O(1)
+```
+class LongestCommonPrefix {
+    public String longestCommonPrefix(String[] strs) {
+        String lcp = "";
+        int len = strs[0].length();
+        boolean flag = true;
+        for(int i = 0; i < len; i++){
+            
+            for(int j = 1; j < strs.length; j++){
+                if(flag && i < strs[j].length()  && strs[0].charAt(i) == strs[j].charAt(i)){
+                    continue;
+                }else{
+                    flag = false;
+                    break;
+                }
+            }
+            if(flag) lcp += strs[0].charAt(i);
+            else break;
+        }
+        return lcp;
+    }
+}
+```
