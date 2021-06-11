@@ -22,6 +22,9 @@ By Problem Category With Alphabetic Order
 - [Valid Palindrome](https://github.com/khabib97/problem-solving-notes/blob/main/string/ValidPalindrome.md)
 - [First Unique Character in a String](https://github.com/khabib97/problem-solving-notes/blob/main/string/FirstUniqueCharacterInString.md)
 
+### Linked List:
+- [Delete Node in a Linked List](https://github.com/khabib97/problem-solving-notes/blob/main/linked-list/DeleteNode.md)
+
 #### Dynamic Programing:
 - [Edit Distance or Levenshtein Distance](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/levenshtein-distance-problem.md)
 - [Min Num of Conins for Change](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/min-number-of-coins-for-change.md)
