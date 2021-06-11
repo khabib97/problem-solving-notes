@@ -21,6 +21,7 @@ By Problem Category With Alphabetic Order
 - [Valid Anagram](https://github.com/khabib97/problem-solving-notes/blob/main/string/ValidAnagram.md)
 - [Valid Palindrome](https://github.com/khabib97/problem-solving-notes/blob/main/string/ValidPalindrome.md)
 - [First Unique Character in a String](https://github.com/khabib97/problem-solving-notes/blob/main/string/FirstUniqueCharacterInString.md)
+- [Longest Common Prefix](https://github.com/khabib97/problem-solving-notes/blob/main/string/LongestCommonPrefix.md)
 
 ### Linked List:
 - [Delete Node in a Linked List](https://github.com/khabib97/problem-solving-notes/blob/main/linked-list/DeleteNode.md)
