@@ -25,6 +25,7 @@ By Problem Category With Alphabetic Order
 
 ### Linked List:
 - [Delete Node in a Linked List](https://github.com/khabib97/problem-solving-notes/blob/main/linked-list/DeleteNode.md)
+- [Remove Nth Node From End of List](https://github.com/khabib97/problem-solving-notes/blob/main/linked-list/RemoveNthNodeFromEndOfList.md)
 
 #### Dynamic Programing:
 - [Edit Distance or Levenshtein Distance](https://github.com/khabib97/problem-solving-notes/blob/main/dynamic-programming/levenshtein-distance-problem.md)
