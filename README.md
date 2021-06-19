@@ -1,9 +1,9 @@
 # Problem Solving Notes
 
-All the problems that I have solved are organized here in readme files.
+All the problems that I have solved, are organized here in readme files.
 
 ### Problems List:
-By Problem Category With Alphabetic Order
+By Problem Category
 
 #### Array:
 - [Remove Duplicates from Sorted Array](https://github.com/khabib97/problem-solving-notes/blob/main/array/RemoveDuplicates.md)
